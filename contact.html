@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 100px;
+            font-size: 30px;
+        }
+        .table-container {
+            margin: auto;
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 20px;
+            border-collapse: collapse;
+            width: 50%;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        td:first-child {
+            font-weight: bold;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Contacts</h2>
+    <div class="table-container">
+        <table>
+            <tr>
+                <td>Email</td>
+                <td>subashchandrankandhasamy@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td>7538841098</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>11/86,Niraiyur,Senjeriputhur(P.O),Dharapuram(T.K),Tiruppur(D.T)</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

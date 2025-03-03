@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 30px;
+            color: #333;
+        }
+        .projects-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            padding: 20px;
+        }
+        .project-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            max-width: 600px;
+            margin: 20px 0;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: slideIn 0.8s ease-out;
+        }
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        .project-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0077b5;
+            margin-bottom: 10px;
+        }
+        .project-description {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <div class="project-title">Architecture Design Hub</div>
+            <div class="project-description">
+                The Architecture Design Hub is an innovative web-based platform that connects users with professional architects to create customized building designs. The platform allows users to submit their land maps, explore pre-designed architecture templates, and contact architects for personalized modifications.
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-title">Online Blood Banking System</div>
+            <div class="project-description">
+                The Online Blood Banking System is a web-based platform designed to streamline blood donation and transfusion processes by connecting donors, recipients, and blood banks in an efficient and organized manner. The system ensures the availability of blood units based on demand, helping hospitals and patients find donors quickly.
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-title">Real-Time Chat System for Architect-Client Communication</div>
+            <div class="project-description">
+                The Real-Time Chat System is an interactive messaging platform that enables seamless communication between clients and architects. Designed to enhance collaboration, this system allows users to discuss architectural designs, share updates, and finalize building plans in real time.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

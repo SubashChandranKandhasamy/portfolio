@@ -1,0 +1,43 @@
+body{
+    background-color: lightblue;
+}
+#heads {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+    margin-top: 2px;
+    display: flex; 
+    gap: 150px;  
+}
+#nav{
+    margin-top: 2px;
+    display: flex;
+    gap: 200px;
+}
+#intro{
+    margin-top: 2px;
+    gap: 10px;
+}
+#intro {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    gap: 100px;
+
+}
+#intro h5{
+    margin-top: 26.5px; 
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 500px;
+
+}
+#intro img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 550px;
+    margin-top: 50px;
+}
